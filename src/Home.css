@@ -1,0 +1,20 @@
+:root {
+    --primary-h: 4;
+    --primary-s: 87%;
+    --primary-l: 59%;
+
+
+    --primary-color: var(--primary-h), var(--primary-s), var(--primary-l);
+    --darken: 20%;
+    --primary-color-dark: var(--primary-h), calc(var(--primary-s) - var(--darken)), calc(var(--primary-l) - var(--darken));
+}
+
+.btn-begin {
+    background-color: hsl(var(--primary-color));
+    color: #FCFCFC;
+}
+
+.btn-begin:hover {
+    background-color: hsl(var(--primary-color-dark))
+}
+
