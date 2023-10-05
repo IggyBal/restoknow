@@ -13,7 +13,7 @@ const Home = () => {
 
             <Link to="/start" className="mx-auto">
                 <button 
-                    className="btn btn-begin normal-case px-12"
+                    className="btn btn-begin text-xs normal-case px-12"
                     onClick={() => {}}>Begin dining</button>
             </Link>
         </div>
